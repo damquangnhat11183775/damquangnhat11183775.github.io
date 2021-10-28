@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+       
+        <style>
+           
+            body{
+                background-image:url("banner.jpg");
+                background-size:100% 125%;
+                background-repeat: no-repeat;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:16px;
+            width: 1000px;
+                margin: 0 auto;
+            }
+            #menu{
+                background-color: rgba(236, 236, 248, 0.8);
+                height:60px;
+                width: 100%;
+                
+            }
+            #menu ul{
+                margin: 0px;
+                padding: 0px;
+            }
+            #menu ul li{
+                list-style: none;
+                float: left;
+                line-height:60px ;
+            padding:0 10px;
+            position: relative;
+            margin-left: 10px;
+            }
+            #menu ul li a{
+                text-decoration: none;
+            text-transform: uppercase;
+            color:blue;
+            font-weight: bold;
+            font-size:1rem;
+            }
+            #menu ul li:hover >a{
+            color: black;
+        }
+        #menu ul li:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        #menu .search{
+            height: 74%;
+            border-radius: 12.5px;
+            width:162px;
+            float:left;
+            background:#a9c8f1;
+            margin-left:10px;
+            margin-top:5px;
+        }
+        #menu .search input{
+            margin-left:10px;
+            margin-top:4px;
+            background:none;
+            border:none;
+            font-weight:800;
+            color: white;
+            width:80%;
+        }
+        #menu .search input:focus{
+            outline: none;
+        }
+        #menu .search span{
+            color:white;
+            font-size:1.8rem; 
+            margin-top:3px;
+        } 
+            #nomenu{
+                
+                margin-top: 300px;
+            }
+            #nomenu #content #left{
+                width: 700px;
+                background-color: rgba(236, 236, 248, 0.2);
+                float: left;
+                min-height: 400px;
+            }
+            #nomenu #content #left ul{
+                margin: 0px;
+                padding:0px;
+
+            }
+            #nomenu #content #left ul li{
+                list-style: none;
+                clear:left;
+                border-bottom: 2px solid #ccc ;
+                float: left;
+                margin-bottom: 20px;
+            }
+            #nomenu #content #left ul li img{
+                float:left;
+                width: 100px;
+            height:100px ;
+                margin-right: 10px;
+                margin-bottom: 20px;
+            }
+            #nomenu #content #left ul li h2{ 
+                font-size: 14px;
+            }
+            #nomenu #content #left ul li h2 a{
+                text-decoration: none;
+            color: black;
+                }
+                #nomenu #content #left ul li h2:hover a{
+            color: #DB4C40;
+            }
+            #nomenu #content #right{
+                width: 300px;
+                background-color: rgba(236, 236, 248, 0.4);
+                float: left;
+               min-height: 400px;
+            }
+            #nomenu #content #right  ul{
+                margin: 0px;
+                padding:0px;
+               
+            }
+            #nomenu #content #right ul li{
+                list-style: none;
+                clear:left;
+                border-bottom: 2px solid #ccc ;
+                float: left;
+                margin-bottom: 20px;
+            }
+             #nomenu #content #right ul li img{
+               float:left;
+                width: 150px;
+            height:200px ;
+                margin-left: 30px;
+                margin-bottom: 20px;
+             }
+             #nomenu #content #right ul li  h2{ 
+                font-size: 14px;
+            }
+            
+            #nomenu #content #right ul li a{
+                text-decoration: none;
+                font-size: 14px;
+            color: black;
+                }
+                #nomenu #content #right ul li  a:hover{
+                    color: #DB4C40;
+                }
+            #nomenu #footer{
+                background-color: rgba(236, 236, 248, 0.4);
+                width: 1000px;
+                height: 150px;
+                text-align: center;
+                clear: left;
+                height: 60px;
+
+            }
+           #footer .left-footer{
+    height: 100%;
+    width: 50%; 
+    float: left;
+    margin-top: 10px;
+}
+#footer .left-footer h3{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    margin-left: 20px;
+    color:black;
+}
+#footer .left-footer h3::after{
+    content:':';
+}
+#footer .left-footer span{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    color:black;
+}
+#footer .left-footer span>i{
+    padding-right: 10px;
+}
+#footer .left-footer span>p{
+    display: inline-block;
+    padding-right: 10px;
+    color:black;
+}
+
+#footer .left-footer span>p>i{
+    padding-right: 5px;
+}
+
+
+        </style>
+    </head>
+    <body>
+
+        <div id="menu">
+            <ul>
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="">Truyện kim dung</a></li>
+        <li><a href="">nhân vật</a></li>
+        <li><a href="">bí kíp</a></li>
+        <li><a href="">diễn viên</a></li>
+        <li><a href="">góc nhìn- bình luận</a></li>
+       </ul>
+       <div class="search">
+        <input type="text" placeholder="Tìm kiếm">
+        <span class="glyphicon glyphicon-search"></span>
+    </div> 
+        </div>
+
+        <div id="nomenu">
+            <div id="content">
+                <div id="left">
+                    <ul>
+                        <li>
+                            <img src="content1.jpg" />
+                            <h2><a href="">Tiểu thuyết:Anh hùng xạ điêu</a></h2>
+                            Truyện xảy ra vào thời nhà Tống (960-1279) khi Nữ Chân bắt đầu tấn công Bắc Trung Quốc. Phần đầu của tiểu thuyết xoay quanh tình bạn giữa Dương Thiết Tâm và Quách Khiếu Thiên, hai hiệp sĩ đã anh dũng chiến đấu chống lại sự tàn phá của quân Kim
+                            
+                        </li>
+                        <li>
+                            <img src="content2.jpg" />
+                            <h2><a href="">TIÊU PHONG - MỘT ĐỜI KIÊU HÙNG, MỘT CHÂN TÌNH OAN NGHIỆT</a></h2>
+                            Một chiêu cực kì cương mãnh trong Hàng Long thập bát chưởng tung ra, và A Châu - trong lốt cải trang Đoàn Chính Thuần - đã ngã gục dưới ánh sấm chớp lòe và cơn mưa đêm tầm tã. Kim Dung đã bố trí cái chết oan uổng của cô tì nữ thông minh A Châu trong một bối cảnh vô cùng thê lương và bi đát
+                           
+                        </li>
+                        <li>
+                            <img src="content3.jpg" />
+                            <h2><a href="">Càn Khôn Đại Na Di</a></h2>
+                            Bản chất môn công phu này là một phương pháp vận kình sử lực xảo diệu, căn bản đạo lý là làm thế nào phát huy tối đa cái tiềm lực trong cơ thể của mỗi người, sau đó mới lôi kéo (na di) kình lực của đối phương, đạt đến chỗ tối thượng của phép "Tứ lượng bạt thiên cân" (bốn lạng địch ngàn cân)
+                        </li>
+                        <li>
+                            <img src="content4.jpg" />
+                            <h2><a href="">Nhà văn kiếm hiệp huyền thoại Kim Dung qua đời ở tuổi 94</a></h2>
+                        Sự ra đi vào cõi vĩnh hằng của nhà văn Kim Dung ngay lập tức đã được báo chí khắp thế giới loan báo, bao gồm cả Việt Nam. Trên mạng xã hội tại Việt Nam, hàng trăm ngàn người đã bày tỏ sự tiếc thương, cũng như nói đến niềm say mê, yêu thích các tác phẩm kiếm hiệp của ông.
+                    </li>
+
+                        
+                    </ul>
+                </div>
+                <div id="right">
+                   <ul>
+                       
+                      <li>
+                        
+                           <h2>Nhân vật nữ trong tháng</h2>
+                          <a href=""> Bao Tích Nhược - người phụ nữ đáng thương</a>
+                          <img src="r2.jpg" />
+                        </li>
+                       <li>
+                           
+                           <h2>Nhân vật nam trong tháng</h2>
+                           <a href="">Tạ Tốn - hận thù sư phụ</a>
+                       
+                           <img src="r3.jpg" /> </li>
+                   </ul>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="left-footer">
+                    <h3>Liên hệ</h3>
+                    <span><i class="glyphicon glyphicon-home"></i> Vũ trụ Indie</span>
+                    <span>
+                        <p><i class="glyphicon glyphicon-earphone"></i>(84)000.000.000</p>
+                        <p><i class="glyphicon glyphicon-phone"></i>(84)00.00.000.000</p>
+                        <p><i class="glyphicon glyphicon-envelope"></i>hotrovn@KDTruyen.com</p>
+                    </span>
+
+
+            </div>
+            
+        </div>
+    </body>
+</html>
